@@ -1,3 +1,25 @@
 name: TheThuum
 main: com.reilaos.bukkit.TheThuum.Plugin
 version: 0.3.1
+commands:
+  fus:
+    description: Fus Ro Dah
+    usage: /<command> [arg] [arg].
+  feim:
+    description: Feim Zii Gron
+    usage: /<command> [arg] [arg].
+  kaan:
+    description: Kaan Drem Ov
+    usage: /<command> [arg] [arg].
+  laas:
+    description: Laas Yah Nir
+    usage: /<command> [arg] [arg].
+  lok:
+    description: Lok Vah Koor
+    usage: /<command> [arg] [arg].
+  wuld:
+    description: Wuld Nah Kest
+    usage: /<command> [arg] [arg].
+  yol:
+    description: Yol Toor Shul
+    usage: /<command> [arg] [arg].
