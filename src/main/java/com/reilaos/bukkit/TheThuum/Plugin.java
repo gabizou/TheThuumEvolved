@@ -15,6 +15,7 @@ public class Plugin extends JavaPlugin{
 	public static BukkitScheduler scheduler;
 	public static Plugin thisOne;
 	public Logger log;
+	public static shoutCommandExecuter sce;
 	
 	@Override
 	public void onEnable() {
@@ -33,6 +34,17 @@ public class Plugin extends JavaPlugin{
 			}
 		}
 		log.info("The Thu'um" + getDescription().getVersion() + "loaded!");
+		
+		sce = new shoutCommandExecuter(this);
+		
+		getCommand("Fus").setExecutor(sce);
+		getCommand("Feim").setExecutor(sce);
+		getCommand("Kaan").setExecutor(sce);
+		getCommand("Laas").setExecutor(sce);
+		getCommand("Lok").setExecutor(sce);
+		getCommand("Wuld").setExecutor(sce);
+		getCommand("Yol").setExecutor(sce);
+            
 	}
 	
 	@Override
